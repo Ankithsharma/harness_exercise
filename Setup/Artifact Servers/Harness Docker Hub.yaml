@@ -1,5 +1,6 @@
 harnessApiVersion: '1.0'
 type: DOCKER
+password: safeharness:zz-I-7HmTmqzGeFyYwvQQA
 url: https://registry.hub.docker.com/v2/
 usageRestrictions:
   appEnvRestrictions:
@@ -13,3 +14,4 @@ usageRestrictions:
     envFilter:
       filterTypes:
       - NON_PROD
+username: ankithrinwa
