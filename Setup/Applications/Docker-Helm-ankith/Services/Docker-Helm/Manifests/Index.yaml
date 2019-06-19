@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: master
+  connectorName: Ankith_Admin_Github
+  useBranch: true
+storeType: HelmSourceRepo
