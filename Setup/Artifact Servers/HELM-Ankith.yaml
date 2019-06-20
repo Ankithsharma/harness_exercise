@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: HTTP_HELM_REPO
+password: safeharness:E0L4F_G8RwmZM5cP9E05cw
+url: https://charts.bitnami.com/bitnami
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
+username: ankithrinwa
